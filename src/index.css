@@ -1,0 +1,14 @@
+.welcome {
+    background-color: darkgreen;
+    border-radius: 5px;
+    font-style: italic;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.needLogin{
+    background-color: darkred;
+    border-radius: 5px;
+    font-style: italic;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}

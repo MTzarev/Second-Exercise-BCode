@@ -21,14 +21,10 @@ function App() {
     <List items={fruits} category="Fruits"/>
     <List items={vegetables} category="Vegetables"/>
 
-
-
-
-
     <UserGreeting isLoggedIn = {true} />
     </>
-  )
+  );
  
-}
+};
 
 export default App

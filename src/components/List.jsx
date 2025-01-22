@@ -11,8 +11,8 @@ function List () {
 //    const listItems = sorted.map(x=><li>{x}</li>)
    // ! when we wont to render an aray with objects:
 
-   fruits.sort ((a,b)=>a.name.localeCompare(b.name))
-
+   //fruits.sort ((a,b)=>a.name.localeCompare(b.name))
+fruits.sort((a,b)=>b.calories-a.calories)
    const listItems = fruits.map((x)=><li key={x.id}>
     {x.name} &nbsp; <b>calories:
     {x.calories}</b></li>

@@ -13,5 +13,5 @@ const listItems = itemList.map((x)=><li key={x.id}>
         <ol>{listItems}</ol>
     </>
     );
-}
+};
 export default List;

@@ -1,10 +1,8 @@
-import './App.css'
-import UserGreeting from './components/UserGreeting'
-import List from './components/List'
+import './App.css';
+import UserGreeting from './components/UserGreeting';
+import List from './components/List';
 
 function App() {
-
-      
   const fruits = [ {id:1, name: "orange", calories: 45},
                    {id:2, name: "apple", calories: 95}, 
                    {id:3, name: "banana", calories: 105}, 
